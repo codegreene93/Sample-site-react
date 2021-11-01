@@ -6,10 +6,10 @@ import {
   Link
 } from "react-router-dom";
 // import files
-import About from './About';
-import Home from './Home';
-import Contact from './Contact';
-import Services from './Services';
+import About from '../RoutePages/About';
+import Home from '../RoutePages/Home';
+import Contact from '../RoutePages/Contact';
+import Services from '../RoutePages/Services';
 
 
 
@@ -19,6 +19,7 @@ export default function Routes() {
         <Router>
           <div>
             <nav>
+                <h1>Consultancy Site</h1>
               <ul>
                 <li>
                   <Link to="/">Home</Link>
