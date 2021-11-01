@@ -43,11 +43,11 @@ export default function Routes() {
               <Route path="/contact">
                 <Contact />
               </Route>
-              <Route path="/">
-                <Home />
-              </Route>
               <Route path="/services">
                   <Services />
+              </Route>
+              <Route path="/">
+                <Home />
               </Route>
             </Switch>
           </div>
